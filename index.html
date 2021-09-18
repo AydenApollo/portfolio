@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Shane's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/logo.jpg">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Intro-->
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hello, I'm <strong>Shane McDonald</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Full-Stack Developer</p>
+        <img src="assets/IMG_4829.jpg" alt="" class="intro__img">
+    </section>
+
+    <!--About Me -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I Do</h2>
+        <div class="services">
+            <div class="service">
+            <h3>Design + Development</h3>
+            <p>Designs by Shane always feature crisp, pleasing aesthetics as well as seamless development.
+                If it was designed by me, it was created with passion, purpose, and UX centered full-stack engineering.
+            </p>
+            </div> <!-- services part -->
+
+            <div class="service">
+                <h3>Front-End Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi libero officiis id neque hic unde 
+                    mollitia corrupti dolorem iusto autem omnis corporis esse, dicta optio, non, placeat iure voluptates?</p>
+                <img src="assets/download.png" alt="" class="service__img">
+                <img src="assets/react and materialui.png" alt="" class="service__img">
+            </div> <!-- contact me part -->
+
+            <div class="service">
+                <h3>Back-End Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laborum dignissimos sed unde 
+                    asperiores aspernatur, repudiandae assumenda recusandae, rerum eum atque molestias error vero enim optio. Assumenda quam ut temporibus.</p>
+                <img src="assets/683-6833893_node-js-logo-png-transparent-png.jpg" class="service__img">
+                <img src="assets/firebase.png" class="service__img">
+            </div> <!-- past projects part -->
+
+            <div class="service">
+                <h3>Database Service</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iste dolore nulla pariatur. Nostrum eligendi consequatur velit autem,
+                     et nam iste obcaecati, ab excepturi voluptatem blanditiis reiciendis possimus laudantium assumenda!</p>
+                <img src="assets/postgresql.jpg" class="service__img">
+                <img src="assets/postman.png" class="service__img">
+            </div> <!-- about me part -->
+
+        </div>
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--about me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">About Me</h2>
+        <p class="section__subtitle section__subtitle--about">Software Engineer Based Out Of Houston</p>
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ea quae, 
+            debitis distinctio quia perspiciatis sequi delectus non. Harum, quos. Quia incidunt reiciendis corporis eligendi dolorum nihil nam, quam fugiat!</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis molestiae facilis, consequatur corrupti et optio harum repellendus
+                 necessitatibus tenetur temporibus id quasi eos corporis mollitia possimus dolore sequi odit. Facere?
+            </p>
+        </div>
+        <img src="assets/IMG_4829.jpg" class="about-me__img">
+    </section>
+
+    <!--my work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Apps</h2>
+        <p class="section__subtitle section__subtitle--work">A Seletion Of My Work</p>
+        <div class="portfolio">
+            <a href="#" class="portfolio__item">
+                <img src="assets/e-commerce.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="assets/69990090-vector-map-icon-with-pin-pointers-flat-style-eps-jpg.jpg" alt="" class="portfolio__img">
+            </a>
+            <a href="#" class="portfolio__item">
+                <img src="assets/complete-task-icon-18.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+        <a href="mailto:mcdonaldshane33@gmail.com" class="footer__link">mcdonaldshane33@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/AydenApollo">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="www.linkedin.com/in/i-am-shane">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/196af85250.js" crossorigin="anonymous"></script>
+</body>
+</html>
