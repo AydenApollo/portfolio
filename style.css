@@ -393,7 +393,28 @@ header {
 .portfolioItem{
     margin: 20px;
 }
+.portfolioImage{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-left: 1540px;
+    padding-bottom: 20px;
+}
 
+.portfolioImage-1{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-left: 1390px;
+    padding-bottom: 20px;
+}
+.portfolioImage-2{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-left: 1540px;
+    padding-bottom: 20px;
+}
 
 
 /*Footer*/
