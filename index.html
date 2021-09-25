@@ -54,8 +54,10 @@
                 <p>I have spent my time dedicating myself to Javascript and React and 3rd party design libraries
                      in order to deliver top quality front-end user experiences. 
                 </p>
-                <img src="assets/download.png" alt="" class="service__img">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" class="service__img">
                 <img src="assets/react and materialui.png" alt="" class="service__img">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" class="service__img" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="" class="service__img" />
             </div> <!-- contact me part -->
 
             <div class="service">
@@ -64,7 +66,7 @@
                     makes the tech world go round. I have made myself confident in my abilites to 
                     bring quality server-side performance on all of my projects.
                 </p>
-                <img src="assets/683-6833893_node-js-logo-png-transparent-png.jpg" class="service__img">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" class="service__img">
                 
             </div> <!-- past projects part -->
 
@@ -73,15 +75,14 @@
                 <p>Data is the driving force of success in the tech world, so I have devoted time and 
                     effort into familiarizing myself with the database services to ensure that the information
                     is always being used to its greatest potential.</p>
-                <img src="assets/postgresql.jpg" class="service__img">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" class="service__img">
                 <img src="assets/postman.png" class="service__img">
-                <img src="assets/mongoDB.png" class="service__img">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" class="service__img">
             </div> <!-- about me part -->
 
         </div>
 
         <a href="#work" class="btn">My Work</a>
-        <a href="assets/DC Resume.pdf" class="btn" target="blank">My Resume</a>
     </section>
 
     <!--about me-->
@@ -89,15 +90,10 @@
         <h2 class="section__title section__title--about">About Me</h2>
         <p class="section__subtitle section__subtitle--about">Software Engineer Based Out Of Houston</p>
         <div class="about-me__body">
-            <p>I am a full-stack developer located in Houston Texas. After earning my degree from university I tried on several different
-                hats in a few years before COVID decided that I didn't need a job anymore and commanded my employer at the time to lay me off,
-                despite the fact that I had a one month old newborn son and rent requirements. It was a strange, unsettling time. I didn't know what
-                to do or where I should turn next, and then I found programming. I instantly became hookded and I haven't looked back since. 
-            </p>
-            <p>
-                I am more than eager to begin my career as a software engineer. I want to embark on a journey that will 
-                grow my skills as a contributing member of society and I want to ensure that my livlihood and those in it 
-                will forever have a place here in this era of technology and learning. 
+            <p>I am a full-stack developer located in Houston Texas. After earning my degree from university, I embarked on several career paths before finding my 
+                passion for software-engineering. During the transition, I have learned project management, team collaboration, skill organization, and a near 
+                mad desire for deadline completion. Software-engineering best suites my skills as an contributing member of soceity and I am eager to begin my most 
+                important and final career path as a full-stack developer. 
             </p>
         </div>
         <img src="assets/IMG_4829.jpg" class="about-me__img">
@@ -108,15 +104,35 @@
         <h2 class="section__title section__title--work">My Apps</h2>
         <p class="section__subtitle section__subtitle--work">A Seletion Of My Work</p>
         <div class="portfolio">
-            <a href="buy-weird-things.herokuapp.com" class="portfolio__item" target="blank">
-                <img src="assets/e-commerce.jpg" alt="" class="portfolio__img">
-            </a>
-            <a href="runnerdashboard.herokuapp.com/" class="portfolio__item" target="blank">
-                <img src="assets/69990090-vector-map-icon-with-pin-pointers-flat-style-eps-jpg.jpg" alt="" class="portfolio__img">
-            </a>
-            <a href="https://github.com/Kavian-Spells/daily-task-manager.git" class="portfolio__item">
-                <img src="assets/complete-task-icon-18.jpg" alt="" class="portfolio__img">
-            </a>
+            <div class="portfolioItem">
+                <h3>E-Commerece Shopping Cart</h3>
+                <p>
+                    A React.js shopping cart designed
+                     with Material.ui and vanilla Javascript.
+                    The user can select from a pre-loaded selection of commerece items and place them 
+                    into a shopping cart for purchase. 
+                </p>
+            <a href="https://buy-weird-things.herokuapp.com/" class="portfolioLink" target="blank">E-Commerece Shopping cart</a>
+            <a href="https://github.com/AydenApollo/e-commerce.git" class="portfolioLink" target="blank">Github Source Code</a>
+            </div>
+            <div class="portfolioItem">
+                <h3>Restaurant Review App</h3>
+                <p>
+                    The user is able to select from a variety of pre-loaded restaurants
+                    and leave a review and a star ranking. The user can also check out previous reviews and user information.
+                    The project was built using postgresql for the database, Node.js and Express for the backend, and vanilla Javascript and HTML/CSS for the frontend.
+                </p>
+            <a href="https://yelperclone.herokuapp.com/" class="portfolioLink" target="blank">Restaurant Review Application</a>
+            <a href="https://github.com/AydenApollo/Reviewer.git" class="portfolioLink" target="blank">Github Source Code</a>
+            </div>
+            <div class="portfolioItem">
+                <h3>Contact List Application</h3>
+                <p>
+                    The user can review and add contact information or delete contacts from their list of contacts.
+                </p>
+            <a href="https://aydenapollo.github.io/reactcontact/" class="portfolioLink">Contact Application</a>
+            <a href="https://github.com/AydenApollo/reactcontact.git" class="portfolioLink" target="blank">Github Source Code></a>
+            </div>
         </div>
     </section>
     <!--footer-->
@@ -132,6 +148,9 @@
                 <a class="social-list__link" href="www.linkedin.com/in/i-am-shane" target="blank">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
+            </li>
+            <li class="social-list__item">
+                <a href="assets/DC Resume.pdf" class="social-list__link" target="blank">My Resume</a>
             </li>
         </ul>
     </footer>
