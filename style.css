@@ -205,43 +205,7 @@ header {
     position: fixed;
 }
 
-.nav-open .hamburger {
-    transform: rotate(.625turn);
-}
 
-.nav-open .hamburger::before {
-    transform: rotate(90deg) translateX(-6px);
-}
-
-.nav-open .hamburger::after {
-    opacity: 0;
-}
-
-.hamburger {
-    display: block;
-    position: relative;
-}
-
-.hamburger,
-.hamburger::before,
-.hamburger::after {
-    background: var(--clr-accent);
-    width: 2em;
-    height: 3px;
-    border-radius: 1em;
-    transition: transform 250ms ease-in-out;
-}
-
-.hamburger::before,
-.hamburger::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-}
-
-.hamburger::before { top: 6px}
-.hamburger::after {bottom: 6px}
 
 /*Intro seciton*/
 .intro {
@@ -397,7 +361,7 @@ header {
     display: flex;
     justify-self: center;
     align-items: center;
-    padding-left: 1540px;
+    padding-left: 1530px;
     padding-bottom: 20px;
 }
 
